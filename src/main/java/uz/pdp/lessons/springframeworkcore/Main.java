@@ -10,6 +10,7 @@ public class Main {
         System.out.println("Hello world!");
         AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext(DemoConfig.class);
         DemoBean demoBean = context.getBean(DemoBean.class);
+        System.out.println("Shaxzod");
         System.out.println(demoBean.hi());
     }
 }
